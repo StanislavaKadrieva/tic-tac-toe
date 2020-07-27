@@ -25,3 +25,13 @@ body {
     cursor: pointer;
     outline: none;
  }
+ 
+button.square[data-pro="X"] {
+color: red;
+background-color: pink;
+}
+
+button.square[data-pro="O"] {
+  color: #fff;
+  background-color: darkblue;
+}
